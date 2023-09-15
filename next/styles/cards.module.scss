@@ -1,0 +1,14 @@
+$card_color: white;
+
+@mixin standart_card {
+  height: 200px;
+  width: 120px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.card {
+  @include standart_card;
+  background-color: $card_color;
+}

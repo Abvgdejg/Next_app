@@ -1,0 +1,29 @@
+$primapy_color: #8A00F6;
+$secodary_color: #A259FF;
+
+.test {
+
+  color: chartreuse
+}
+
+.navbar {
+  height: 100%;
+  background-color: $primapy_color;
+  padding: 0;
+}
+
+.navbar.collapse {
+  height: 100%;
+  background-color: $primapy_color;
+}
+
+.button {
+  height: 100%;
+  color: black;
+  padding: 12px;
+}
+
+.button.selected {
+  background-color: $secodary_color;
+  color: white;
+}
