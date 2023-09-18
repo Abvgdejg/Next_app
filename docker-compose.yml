@@ -43,11 +43,18 @@ services:
     volumes:
       - next_test_redis:/data
 
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx:/nginx
+      - ./nginx/ssl:/etc/nginx/ssl
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - 80:80
+      - 443:443
+
 volumes:
   next_test_mysql:
     driver: local
   next_test_redis:
     driver: local
-
-networks:
-  default:

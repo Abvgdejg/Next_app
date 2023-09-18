@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=RU
+ST=Orel
+L=Orel
+O=testDev
+OU=local_RootCA
+emailAddress=dan2065@mail.ru
+CN=test.dev

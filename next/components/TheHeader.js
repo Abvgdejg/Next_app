@@ -19,7 +19,7 @@ const pages = {
     name: "Cards"
   },
   api: {
-    path: "/api",
+    path: "/test_api",
     name: "Api"
   },
 }

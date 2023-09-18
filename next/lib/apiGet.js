@@ -1,7 +1,7 @@
-import { API, DOMAIN } from '@/config';
+import { API_DOMAIN } from '@/config';
 
 export default async function apiGet(path) {
-    const res = await fetch(`http://${DOMAIN}/${API}/${path}`, { cache: 'no-store' })
+    const res = await fetch(`${API_DOMAIN}/${path}`, { cache: 'no-store' })
 
     if (!res.ok) {
         console.log(res.status)

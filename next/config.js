@@ -1,6 +1,5 @@
 const CONFIG = {
-    DOMAIN: 'app:4000',
-    API: 'api'
+    API_DOMAIN: 'http://app:4000/api'
 }
 
 module.exports = CONFIG
