@@ -1,5 +1,5 @@
-class Api::TestController < ApplicationController
-  def get_data
+class Api::UsersController < ApplicationController
+  def all
     headers = { 'Content-Type': 'application/json',
                 'Access-Control': 'Allow-Origin' }
     res = []
