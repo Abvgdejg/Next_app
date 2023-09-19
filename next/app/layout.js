@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import './globals.scss'
+import '@/styles/globals.scss'
 import { Inter } from 'next/font/google'
 import { TheHeader } from '@/components/TheHeader'
 
@@ -16,7 +16,7 @@ export default function RootLayout({ children, params: { id } }) {
       <body>
         <TheHeader />
         <main className={inter.className + ' container'}>
-          <div className="main_container">
+          <div className="main_container outer_shadow">
             {children}
           </div>
         </main>

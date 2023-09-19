@@ -4,8 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   namespace :api do
-    scope :users do
-      root to: 'users#all'
-    end
+    resources :users
   end
 end

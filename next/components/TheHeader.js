@@ -10,18 +10,6 @@ const pages = {
     path: "/",
     name: "Home"
   },
-  test: {
-    path: "/test",
-    name: "Test"
-  },
-  cards: {
-    path: "/cards",
-    name: "Cards"
-  },
-  api: {
-    path: "/test_api",
-    name: "Api"
-  },
 }
 
 const TheHeader = () => {
@@ -29,7 +17,7 @@ const TheHeader = () => {
 
   return (
     <header className="container">
-      <nav className={styles.navbar + " navbar-expand"}>
+      <nav className={styles.navbar + " navbar-expand outer_shadow"}>
         <div className={"collapse navbar-collapse " + styles.collapse} id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             {Object.keys(pages).map((page) => (
