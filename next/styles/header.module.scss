@@ -4,7 +4,7 @@ $text_color_primary: #000000;
 
 .navbar {
   height: 100%;
-  background-color: $primapy_color;
+  background: var(--gradient_background);
   padding: 0;
 
 }

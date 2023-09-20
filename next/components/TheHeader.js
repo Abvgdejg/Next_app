@@ -16,9 +16,9 @@ const TheHeader = () => {
   const pathname = usePathname()
 
   return (
-    <header className="container">
-      <nav className={styles.navbar + " navbar-expand outer_shadow"}>
-        <div className={"collapse navbar-collapse " + styles.collapse} id="navbarSupportedContent">
+    <header className="">
+      <nav className={styles.navbar + " navbar-expand "}>
+        <div className={"collapse navbar-collapse container " + styles.collapse} id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             {Object.keys(pages).map((page) => (
               <>

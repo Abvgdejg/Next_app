@@ -15,8 +15,8 @@ export default function RootLayout({ children, params: { id } }) {
     <html lang="en">
       <body>
         <TheHeader />
-        <main className={inter.className + ' container'}>
-          <div className="main_container outer_shadow">
+        <main className={inter.className + ' container mt-5'}>
+          <div className="main_container">
             {children}
           </div>
         </main>

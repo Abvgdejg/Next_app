@@ -34,6 +34,8 @@
   --card-border-rgb: 131, 134, 135;
 
   --main-background: #F8F4FF;
+
+  --gradient_background: linear-gradient(to right top, #7D22C5, #B07E62 60%, #DF9090 90%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -65,6 +67,8 @@
   }
 }
 
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -80,13 +84,14 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: var(--main-background);
+  background-color: black;
 }
 
 .main_container {
 
-  background: linear-gradient(to right top, #7D22C5, #B07E62 60%, #DF9090 90%);
-
+  background: #f2f2f2;
+  border: 1px solid #393939;
+  padding-bottom: 25px;
   color: black;
   min-height: 70vh;
   padding: 15px;
@@ -102,7 +107,7 @@ a {
 
 .outer_shadow {
 
-  box-shadow: 0px 0px 10px 20px #00000010;
+  box-shadow: 0px 0px 5px 5px #FFFFFF;
 
 }
 
