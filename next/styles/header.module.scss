@@ -1,5 +1,5 @@
 $primapy_color: #78DBE2;
-$secodary_color: #F8F4FF;
+$hover_color: rgba(120, 219, 226, .8);
 $text_color_primary: #000000;
 
 .navbar {
@@ -9,18 +9,15 @@ $text_color_primary: #000000;
 
 }
 
-.navbar.collapse {
-  height: 100%;
-  background-color: $primapy_color;
-}
-
 .button {
   height: 100%;
   color: white;
   padding: 12px;
 }
 
-.button.selected {
-  background-color: $secodary_color;
-  color: black;
+.button:hover {
+
+  background-color: $hover_color;
+  color: $text_color_primary;
+
 }

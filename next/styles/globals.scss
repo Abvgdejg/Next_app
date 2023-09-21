@@ -85,6 +85,12 @@ body {
 body {
   color: rgb(var(--foreground-rgb));
   background-color: black;
+  background-image: url(/back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  font-family: 'Roboto,sans-serif';
+  line-height: 1.4;
 }
 
 .main_container {
@@ -95,9 +101,6 @@ body {
   color: black;
   min-height: 70vh;
   padding: 15px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-
 }
 
 a {
@@ -115,4 +118,11 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.additional_container_padding {
+
+  padding-left: 10%;
+  padding-right: 10%;
+
 }
