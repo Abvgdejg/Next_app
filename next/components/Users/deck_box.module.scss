@@ -1,0 +1,62 @@
+.container {
+    display: inline-block;
+    background: #fff;
+    display: block;
+    border: 1px solid #adadad;
+    font-size: .9em;
+    text-decoration: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+
+    .top {
+        background: #242424;
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 2px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #adadad;
+
+        .title {
+            font-size: 1.5em;
+        }
+    }
+
+    .bottom {
+        background: #a69f95;
+        display: block;
+        color: #000;
+        font-size: 14px;
+        font-weight: bold;
+        position: relative;
+        padding-top: 10px;
+
+        .colors {
+            position: absolute;
+            top: -12px;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+
+        .body {
+            padding: 2px;
+            display: block;
+            text-align: center;
+        }
+
+        .info {
+            padding: 1px 5px;
+            display: block;
+
+            .left_part {
+                float: left;
+            }
+
+            .right_part {
+                float: right;
+            }
+        }
+
+    }
+}
