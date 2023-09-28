@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './deck_box.module.scss'
+import { ColorIcon } from '../Icons/ColorIcon'
 
 const User_card = ({ user }) => {
     return (
@@ -12,13 +13,15 @@ const User_card = ({ user }) => {
                     </span>
                 </span>
                 <span className={styles.bottom}>
-                    <span className={styles.colors}>{user.color}</span>
+                    <span className={styles.colors}>{user.color.map(color => <ColorIcon color={color} />)}</span>
                     <span className={styles.body}>{user.tag}</span>
                     <span className={styles.info}>
                         <span className={styles.left_part}>{user.id}</span>
                         <span className={styles.right_part}>{user.color}</span>
                     </span>
+                    <span className={styles.clearfix}></span>
                 </span>
+                <span className={styles.clearfix}></span>
             </Link >
         </div >
     )

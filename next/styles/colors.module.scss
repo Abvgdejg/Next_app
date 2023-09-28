@@ -1,0 +1,42 @@
+%color {
+    background: url(/icons.png) no-repeat 0 0;
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px
+}
+
+.color_red {
+    @extend %color;
+    background-position-x: 0px;
+}
+
+.color_yellow {
+    @extend %color;
+    background-position-x: -24px;
+}
+
+.color_green {
+    @extend %color;
+    background-position-x: -48px;
+}
+
+.color_blue {
+    @extend %color;
+    background-position-x: -72px;
+}
+
+.color_purple {
+    @extend %color;
+    background-position-x: -96px;
+}
+
+.color_no {
+    @extend %color;
+    background-position-x: -144px;
+}
+
+.highligted {
+    background-position-y: -24px;
+}
