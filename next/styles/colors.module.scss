@@ -7,34 +7,34 @@
     margin-top: -2px
 }
 
-.color_red {
+.color_neutral {
     @extend %color;
-    background-position-x: 0px;
+    background-position-x: -120px;
 }
 
-.color_yellow {
+.color_plains {
     @extend %color;
     background-position-x: -24px;
 }
 
-.color_green {
+.color_forests {
     @extend %color;
-    background-position-x: -48px;
+    background-position-x: 0px;
 }
 
-.color_blue {
+.color_mountains {
     @extend %color;
     background-position-x: -72px;
 }
 
-.color_purple {
+.color_dark {
     @extend %color;
     background-position-x: -96px;
 }
 
-.color_no {
+.color_swamps {
     @extend %color;
-    background-position-x: -144px;
+    background-position-x: -48px;
 }
 
 .highligted {

@@ -4,23 +4,26 @@ const ColorIcon = ({ color }) => {
 
     var c = ''
     switch (color) {
-        case 'red':
-            c = colors.color_red
+        case 'neutral':
+            c = colors.color_neutral
             break
-        case 'green':
-            c = colors.color_green
+        case 'forests':
+            c = colors.color_forests
             break
-        case 'yellow':
-            c = colors.color_yellow
+        case 'plains':
+            c = colors.color_plains
             break
-        case 'purple':
-            c = colors.color_purple
+        case 'dark':
+            c = colors.color_dark
             break
-        case 'blue':
-            c = colors.color_blue
+        case 'mountains':
+            c = colors.color_mountains
+            break
+        case 'swamps':
+            c = colors.color_swamps
             break
         default:
-            c = colors.color_no
+            c = colors.color_neutral
             break
     }
 
