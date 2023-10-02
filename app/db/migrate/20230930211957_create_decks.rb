@@ -5,7 +5,7 @@ class CreateDecks < ActiveRecord::Migration[7.0]
       t.string   :description
       t.string   :gamemode
       t.string   :code
-      t.integer  :author
+      t.integer  :user_id
       t.string   :version
       t.string   :game
 
